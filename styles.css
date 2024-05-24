@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+.nav {
+  width: 100%;
+  height: auto;
+  background-color: #e5e5e5;
+  padding: 2rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: fit-content;
+  height: auto;
+}
+
+.logo h3 {
+  color: #1e1e1e;
+  font-size: 1rem;
+}
+
+.button {
+  width: fit-content;
+  height: auto;
+}
+
+.button button {
+  background-color: #1e1e1e;
+  color: #f8f8f8;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 0.8rem;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.hero-section {
+  width: 100%;
+  height: auto;
+  background-color: #d1d1d1;
+  padding: 3rem 2rem 3rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: stretch;
+}
+.left-hero-container {
+  background-color: #fff;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 6rem 4rem 6rem 2rem;
+  row-gap: 1rem;
+}
+.left-hero-heading1-container {
+  width: fit-content;
+  height: auto;
+}
+.left-hero-heading1-container h1 {
+  font-size: 2.5rem;
+  color: #000;
+}
+.left-hero-paragraph-container {
+  width: 100%;
+  height: auto;
+}
+.left-hero-paragraph-container p {
+  font-size: 1.2rem;
+  color: #1e1e1e;
+}
+.left-hero-button-container {
+  width: fit-content;
+  height: auto;
+}
+.left-hero-button-container button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.right-hero-container {
+  width: 50%;
+  height: auto;
+}
+.image-container {
+  width: 100%;
+  height: auto;
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+.bottom-section {
+  width: 100%;
+  height: auto;
+  padding: 3rem 3rem 3rem 3rem;
+  background-color: #898989;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  column-gap: 1.5rem;
+}
+.card-container {
+  background-color: #fff;
+  width: 40%;
+  height: auto;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+}
+.card-title-container {
+  width: fit-content;
+  height: auto;
+}
+.card-title-container h3 {
+  font-size: 1.8rem;
+}
+.card-paragraph-container {
+  width: fit-content;
+  height: auto;
+}
+.card-paragraph-container p {
+  font-size: 1.3rem;
+  color: #1e1e1e;
+}
+.card-button-container {
+  width: fit-content;
+  height: auto;
+}
+.card-button-container button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
