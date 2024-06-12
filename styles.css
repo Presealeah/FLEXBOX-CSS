@@ -153,3 +153,100 @@
   border-radius: 0.5rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1120px) {
+  .nav {
+    width: 100%;
+    height: auto;
+    background-color: #e5e5e5;
+    padding: 2rem 1.5rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .left-hero-container {
+    background-color: #fff;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 6rem 4rem 6rem 2rem;
+    row-gap: 1rem;
+  }
+
+  .card-container {
+    background-color: #fff;
+    width: 50%;
+    height: auto;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+  }
+  .bottom-section {
+    width: 100%;
+    height: auto;
+    padding: 3rem 3rem 3rem 3rem;
+    background-color: #898989;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    column-gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-section {
+    width: 100%;
+    height: auto;
+    background-color: #d1d1d1;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+  }
+  .left-hero-container {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 4rem 4rem 4rem 2rem;
+    row-gap: 1rem;
+  }
+  .right-hero-container {
+    width: 100%;
+    height: auto;
+  }
+  .bottom-section {
+    width: 100%;
+    height: auto;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: #898989;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 1.5rem;
+  }
+  .card-container {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+  }
+}
